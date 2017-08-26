@@ -1,0 +1,7 @@
+[2017-08-26 13:34:50] app.exception.ERROR: Class '\app\controllers\Dirty' not found [] []
+[2017-08-26 13:56:43] app.exception.ERROR: Undefined variable: a [] []
+[2017-08-26 13:58:17] app.exception.ERROR: Undefined variable: a [] []
+[2017-08-26 13:58:41] app.exception.ERROR: Undefined variable: a [] []
+[2017-08-26 14:02:38] app.exception.ERROR: Undefined variable: a [] []
+[2017-08-26 14:02:59] app.exception.ERROR: Undefined variable: a [] []
+[2017-08-26 14:03:30] app.exception.ERROR: Undefined variable: a [] []
