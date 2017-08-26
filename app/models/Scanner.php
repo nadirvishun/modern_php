@@ -1,5 +1,8 @@
 <?php
-namespace modernphp\url;
+/**
+ * 测试url是否有效
+ */
+namespace modernphp\app\models;
 
 use GuzzleHttp\Client;
 

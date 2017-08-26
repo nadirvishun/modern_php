@@ -1,5 +1,8 @@
 <?php
-namespace modernphp;
+/**
+ * 用于单元测试
+ */
+namespace modernphp\app\models;
 
 class Whovian
 {

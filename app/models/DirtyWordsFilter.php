@@ -1,8 +1,10 @@
 <?php
 /**
- * 文字过滤器
+ * 流过滤器
  */
-class DirtyWordsFilter extends php_user_filter
+namespace modernphp\app\models;
+
+class DirtyWordsFilter extends \php_user_filter
 {
     /**
      * 过滤实现
@@ -39,15 +41,3 @@ class DirtyWordsFilter extends php_user_filter
         return PSFS_PASS_ON;
     }
 }
-//注册过滤器
-stream_filter_register('dirty_words_filter', 'DirtyWordsFilter');
-//测试过滤
-$handle=fopen('data.txt', 'r');
-stream_filter_append($handle,'dirty_words_filter');
-//另一种方式
-// $handle=fopen('php://filter/read=dirty_words_filter/resource=data.txt','r');
-while (feof($handle)!==true) {
-    echo fgets($handle);
-}
-fclose($handle);
-

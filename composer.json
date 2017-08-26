@@ -16,11 +16,12 @@
         "league/csv": "^8.2",
         "filp/whoops": "^2.1",
         "monolog/monolog": "^1.23",
-        "swiftmailer/swiftmailer": "^6.0"
+        "swiftmailer/swiftmailer": "^6.0",
+        "nikic/fast-route": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "modernphp\\": "src/"
+            "modernphp\\": ""
         }
     },
     "require-dev": {
