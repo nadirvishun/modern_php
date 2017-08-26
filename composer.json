@@ -1,0 +1,29 @@
+{
+    "name": "modernphp/scanner",
+    "description": "learn modernphp book",
+    "keywords": [
+        "Url",
+        "scanner",
+        "csv"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "nadirvishun",
+        "email": "nadirvishun@gmail.com"
+    }],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "league/csv": "^8.2",
+        "filp/whoops": "^2.1",
+        "monolog/monolog": "^1.23",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "modernphp\\": "src/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.3"
+    }
+}
