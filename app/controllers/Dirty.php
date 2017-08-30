@@ -2,16 +2,19 @@
 /**
  * 测试流过滤器
  */
-namespace modernphp\app\controllers;
+namespace app\controllers;
+use modernphp\Controller;
+// use app\models\DirtyWordsFilter;//不管用，必须在下方写全
 
-// use modernphp\app\models\DirtyWordsFilter;//不管用，不需在下方写全
-
-class Dirty
+class Dirty extends Controller
 {
+    /**
+     * 测试流方法
+     */ 
     public function test()
     {
         //注册过滤器
-        stream_filter_register('dirty_words_filter', '\modernphp\app\models\DirtyWordsFilter');
+        stream_filter_register('dirty_words_filter', '\app\models\DirtyWordsFilter');
         //测试过滤
         $data=STORAGE_PATH.DS.'data/data.txt';
         $handle=fopen($data, 'r');
@@ -20,9 +23,11 @@ class Dirty
             //另一种方式
             // $handle=fopen('php://filter/read=dirty_words_filter/resource=data.txt','r');
             while (feof($handle)!==true) {
-                echo fgets($handle).PHP_EOL;
+               $arr[]= fgets($handle);
             }
             fclose($handle);
         }
+        //转向app/views/dirty/test.php文件
+        $this->render('test',['content'=>$arr]);
     }
 }

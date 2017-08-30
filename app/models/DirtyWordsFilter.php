@@ -2,7 +2,7 @@
 /**
  * 流过滤器
  */
-namespace modernphp\app\models;
+namespace app\models;
 
 class DirtyWordsFilter extends \php_user_filter
 {

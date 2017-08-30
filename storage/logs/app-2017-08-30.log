@@ -1,0 +1,26 @@
+[2017-08-30 09:13:08] app.exception.ERROR: 404 Not Found [] {"url":"/favicon.ico","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:13:42] app.exception.ERROR: 404 Not Found [] {"url":"/dirty/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:16:39] app.exception.ERROR: 404 Not Found [] {"url":"/dirty/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:17:03] app.exception.ERROR: Connection could not be established with host  [ÔÚÆäÉÏÏÂÎÄÖĞ£¬¸ÃÇëÇóµÄµØÖ·ÎŞĞ§¡£  #10049] [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:18:06] app.exception.ERROR: Connection could not be established with host  [ÔÚÆäÉÏÏÂÎÄÖĞ£¬¸ÃÇëÇóµÄµØÖ·ÎŞĞ§¡£  #10049] [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:20:14] app.exception.ERROR: Connection could not be established with host  [ÔÚÆäÉÏÏÂÎÄÖĞ£¬¸ÃÇëÇóµÄµØÖ·ÎŞĞ§¡£  #10049] [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:26:39] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:26:39] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:26:39] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:26:39] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:26:39] app.exception.ERROR: Connection could not be established with host  [ÔÚÆäÉÏÏÂÎÄÖĞ£¬¸ÃÇëÇóµÄµØÖ·ÎŞĞ§¡£  #10049] [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:29:15] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:29:15] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:29:15] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:29:15] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:30:27] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:30:27] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:30:27] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:30:27] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:32:18] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:32:52] app.INFO: 123 [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:32:52] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:36:11] app.INFO:  [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:40:58] app.db.ERROR: é‚®ä»¶å‘é€ [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:45:28] app.db.ERROR: é‚®ä»¶å‘é€ [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-30 09:46:24] app.db.ERROR: é‚®ä»¶å‘é€ [] {"url":"/logger/testmail","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}

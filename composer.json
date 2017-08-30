@@ -21,7 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "modernphp\\": ""
+            "modernphp\\": "core/",
+            "app\\": "app/"
         }
     },
     "require-dev": {

@@ -1,5 +1,5 @@
 <?php
-use modernphp\app\models\Whovian;
+use app\models\Whovian;
 
 class WhovianTest extends \Codeception\Test\Unit
 {
