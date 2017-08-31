@@ -2,7 +2,7 @@
 /**
  * 用于单元测试
  */
-namespace modernphp\app\models;
+namespace app\models;
 
 class Whovian
 {

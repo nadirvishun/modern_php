@@ -2,13 +2,19 @@
 /**
  * 测试网址是否有效
  */
-namespace modernphp\app\controllers;
+namespace app\controllers;
 
-use modernphp\app\models\Scanner;
+use modernphp\Controller;
+use app\models\Scanner;
 use League\Csv\Reader;
 
-class Scan
+class Scan extends Controller
 {
+    /**
+     * 测试有效网址
+     *
+     * @return void
+     */
     public function test()
     {
         // $urls=[
@@ -27,6 +33,7 @@ class Scan
             $urls[]=$csvRow[0];
         }
         $scanner=new Scanner($urls);
-        print_r($scanner->getInvalidUrls());
+        $invalidUlrs=$scanner->getInvalidUrls();
+        $this->render('test',['invalidUlrs'=>$invalidUlrs]);
     }
 }

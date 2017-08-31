@@ -2,7 +2,7 @@
 /**
  * 测试url是否有效
  */
-namespace modernphp\app\models;
+namespace app\models;
 
 use GuzzleHttp\Client;
 

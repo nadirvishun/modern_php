@@ -1,0 +1,14 @@
+[2017-08-25 17:19:39] app.ERROR: 456 [] []
+[2017-08-25 17:20:33] app.ERROR: 456 [] []
+[2017-08-25 17:30:50] app.ERROR: 456 [] {"uid":"9457065"}
+[2017-08-25 17:32:29] app.ERROR: 456 [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:33:15] app.ERROR: 456 [] []
+[2017-08-25 17:37:18] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:37:46] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:37:48] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:40:20] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:40:23] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:42:05] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:42:44] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:52:40] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
+[2017-08-25 17:53:03] app.exception.ERROR: Undefined variable: a [] {"url":"/dirty/test?abc=113","ip":"127.0.0.1","http_method":"GET","server":"www.mordenphp.com","referrer":null}
