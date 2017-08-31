@@ -37,7 +37,7 @@
 离真正的框架还差老远老远，还缺少的主要组件有：
 - DI依赖注入组件
 - Request请求组件
-- Response相应组件
+- Response响应组件
 - Db数据库组件
 - Cache缓存组件
 - Session/Cookie组件
