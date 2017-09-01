@@ -21,7 +21,7 @@ class Application extends Object
     {
         \Modern::$app=$this;
         $this->init($config);
-        // $this->registerErrorHandler();
+        $this->registerErrorHandler();
         parent::__construct($config);
     }
     /**
@@ -123,8 +123,17 @@ class Application extends Object
                 //增加名称为app.exception，以区分开来
                 $this->logger->withName('app.exception')->error($exception->getMessage());//纪录日志（发现laravel和yii2等都将此纪录的等级设为error，没有再细分）
                 $this->clearOutput();
-                //TODO,指向错误视图页
-                echo '-_-!!,悲剧了!';//展示自定义错误信息而不暴露详细信息
+                //展示自定义错误信息而不暴露详细信息
+                $errorFile=APP_PATH.DS.'views'.DS.'errors'.DS.'error.php';
+                if(file_exists($errorFile)){
+                    ob_start();
+                    ob_implicit_flush(false);
+                    require($errorFile);
+                    echo ob_get_clean();
+                }else{
+                    //T指向错误视图页
+                    echo '-_-!!,悲剧了!';
+                }
             });
         }
         $whoops->register();

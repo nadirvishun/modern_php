@@ -16,8 +16,9 @@ class Inflector
             return trim(strtolower(str_replace('_', $separator, preg_replace($regex, $separator . '\0', $name))), $separator);
         }
     }
+    
      /**
-     * 驼峰转ID
+     * ID转驼峰
      * 类似hello-world转为HelloWorld
      */
     public static function id2camel($id, $separator = '-')
